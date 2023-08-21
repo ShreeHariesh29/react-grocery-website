@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 function Header() {
   return (
     <div className=' mx-[11%] ' >
         <div className='flex '>
-        <div className='flex-none w-[20%] '>
-            <img className='w-[240px] h-[100px]' src="images/bb logo.png" alt="" />
-        </div>
+            <Link to="/">
+            <div className='flex-none w-[100%] '>
+            <img className='w-[220px] h-[100px]' src="images/bb logo.png" alt="" />
+             </div>
+            </Link>
         <div className='flex-1 w-[80%]  '>
             <div className='block '>
             <div className='flex justify-end text-slate-500    w-[100%] ' >
@@ -15,7 +18,7 @@ function Header() {
             </div>
             <div className=' mt-[15px] flex justify-between'  >
                 <div className='flex w-[80%]'>
-                <input className='w-[70%] h-[40px] mt-[15px] border-solid border-2 border-gray-300 ' type="text" placeholder='Search your Category '   />
+                <input className='w-[70%] h-[40px] mt-[15px] ml-[30px] border-solid border-2 border-gray-300 ' type="text" placeholder='Search your Category '   />
                 <button className='h-[40px] w-[45px] bg-green mt-[15px] p-[7px] bg-lime-400 '><img className='w-[28px] ' src="images/search icon.png" alt="" /></button>
                 </div>
                 <div className='flex bg-zinc-300 p-2'>
