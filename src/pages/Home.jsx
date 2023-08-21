@@ -1,12 +1,16 @@
 import React from 'react'
-import Banners from '../Discount components/Banners'
 
+import Banner from '../Home components/Banner'
+import Categorybutton from '../Home components/Categorybutton'
+import DiscountBanner from '../Home components/DiscountBanner'
 
 function Home() {
   return (
     <div>
-
-        <Banners />
+      
+      <Banner />
+      <Categorybutton />
+      <DiscountBanner />
         
     </div>
     
