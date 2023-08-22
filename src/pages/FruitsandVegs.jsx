@@ -7,7 +7,8 @@ function FruitsandVegs() {
   return (
     <div className='flex mx-[11%]'>
         <div>
-        <FVSideBar />
+          <FVSideBar />
+        
         </div>
         <div className='row row-cols-1 row-cols-sm-2 row-cols-md-2  row-cols-lg-6'>
         {FVData.Productcard.map((item, index)=>{
