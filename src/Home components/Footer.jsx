@@ -5,7 +5,7 @@ function Footer() {
         <div id="footer" className=' mr-[10%] ml-[10%] flex ' >
             <div style={{ paddingLeft: '10%', paddingTop: '50px' }}>
                 <div style={{ color: 'rgb(176, 173, 173)', fontFamily: 'Arial, Helvetica, sans-serif' }}>
-                    <h4 style={{ color: '#84C225', fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif", fontSize: '30px' }}>help</h4>
+                    <h4 style={{ color: '#84C225', fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif", fontSize: '30px' }}>Help</h4>
                     <p className='py-2' style={{ fontSize: '18px' }}>About us</p>
                     <p className='py-2'  style={{ fontSize: '18px' }}>In News</p>
                     <p className='py-2'  style={{ fontSize: '18px' }}>Green Bigbasket</p>
@@ -20,7 +20,7 @@ function Footer() {
             </div>
             <div style={{ paddingLeft: '10%', paddingTop: '50px' }}>
                 <div style={{ color: 'rgb(176, 173, 173)', fontFamily: 'Arial, Helvetica, sans-serif' }}>
-                    <h4 style={{ color: '#84C225', fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif", fontSize: '30px' }}>help</h4>
+                    <h4 style={{ color: '#84C225', fontFamily: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif", fontSize: '30px' }}>Help</h4>
                     <p className='py-2'  style={{ fontSize: '18px' }}>FAQs</p>
                     <p className='py-2'  style={{ fontSize: '18px' }}>Contact Us</p>
                     <p className='py-2' style={{ fontSize: '18px' }}>bb Wallet FAQs</p>
