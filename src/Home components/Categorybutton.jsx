@@ -23,10 +23,12 @@ function Categorybutton() {
                     </div>
                 </Link>
                     
-                
+                <Link to="/test">
                 <div className="btn mt-[15px] " style={{ backgroundColor: '#E8E8E8', width: '200px', height: '70px', fontSize: '20px', fontWeight: '700' }}>
                     BUY MORE SAVE <br /> MORE
                 </div>
+                </Link>
+                
                 
                 
                 <div className="btn mt-[15px] " style={{ backgroundColor: '#E8E8E8', width: '200px', height: '70px', fontSize: '20px', fontWeight: '700' }}>

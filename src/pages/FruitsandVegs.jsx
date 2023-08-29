@@ -10,12 +10,8 @@ function FruitsandVegs() {
           <FVSideBar />
         
         </div>
-        <div className='row row-cols-1 row-cols-sm-2 row-cols-md-2  row-cols-lg-6'>
-        {FVData.Productcard.map((item, index)=>{
-          return(
-            <FVProductList title={item.title} sub={item.sub} price={item.price} but={item.but} img={item.img} fvimg={item.fvimg} key={index} />
-          )
-        })}
+        <div >
+        <FVProductList />
         </div>
     </div>
   )

@@ -8,6 +8,7 @@ import Products from './pages/Products'
 import Discount from './pages/Discount'
 import Baby from './pages/Baby'
 import Footer from './Home components/Footer'
+import Testing from './pages/Testing'
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <Route path="/products" element={<Products />} />
       <Route path="/discount" element={<Discount />} />
       <Route path="/fruits" element={<FruitsandVegs />} />
+      <Route path="/test" element={<Testing />} />
+      
     </Routes>
     <Footer />
     </BrowserRouter>

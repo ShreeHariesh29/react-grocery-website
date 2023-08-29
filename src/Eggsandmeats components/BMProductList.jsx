@@ -4,7 +4,7 @@ function BMProductList(props) {
   return (
     <div>
       
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4  " style={{ marginTop: '20px' }}>
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-col-lg-6 " style={{ marginTop: '20px' }}>
         {/* ... */}
         {/* Replace each 'style' attribute with corresponding inline style object */}
         <div className="col transition duration-100 hover:shadow-2xl " id="bankone" style={{ width: '200px' }}>
