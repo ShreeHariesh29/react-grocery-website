@@ -38,7 +38,7 @@ function Categorybutton() {
                     COMBO STORE
                 </div>
             </div>
-            
+
     </div>
 
   )

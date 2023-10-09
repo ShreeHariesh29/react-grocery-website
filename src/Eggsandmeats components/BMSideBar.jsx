@@ -43,7 +43,7 @@ function BMSideBar() {
                         className="link-body-emphasis d-inline-flex text-decoration-none rounded"
                       >
                         <input type="checkbox" />
-                        Fish & Seafood
+                        Fish & Seafoodun server
                       </a>
                     </li>
                     <li>

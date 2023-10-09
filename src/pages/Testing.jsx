@@ -4,6 +4,11 @@ import axios from 'axios';
 function Testing() {
   
   const [products, setProducts] = useState([]);
+  const [adduser, setAddUser] = useState(false);
+
+  const toggleModel = () =>{
+    setAddUser(!adduser)
+  }
 
   useEffect(() => {
     axios.get('http://localhost:1336/getdata')
@@ -42,6 +47,18 @@ function Testing() {
 
         {/* ... Repeat this structure for other products */}
       </div>
+      <div className='btn ' onClick={toggleModel} >
+        click here
+      </div>
+
+      {adduser && (
+        <div class="adduser">
+        <div>hello world</div>
+        </div>
+      )}
+      
+
+      
     </div>
   );
 }
