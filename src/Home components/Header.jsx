@@ -6,7 +6,7 @@ function Header() {
         <div className='flex '>
             <Link to="/">
             <div className='flex-none w-[100%] '>
-            <img className='w-[220px] h-[100px]' src="images/bb logo.png" alt="" />
+            <img className='w-[220px] h-[100px]' src="images/HeaderLogo.png" alt="" />
              </div>
             </Link>
         <div className='flex-1 w-[80%]  '>

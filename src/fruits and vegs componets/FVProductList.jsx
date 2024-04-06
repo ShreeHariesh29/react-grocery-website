@@ -33,11 +33,11 @@ function FVProductList(pros) {
         <div key={products._id}>
       <div className="mt-3 col transition duration-100 hover:shadow-2xl " id="bankone" style={{ width: '200px' }}>
         <div className="card shadow-sm">
-          <img src={products.productimg} alt="Fresho Eggs - Regular" />
+          <img src={products.image} alt="Fresho Eggs - Regular" />
           <div className="card-body space-y-1">
-            <h3 className="fs-6 text-body-tertiary">{products.productbrand}</h3>
-            <h3 className="fs-6 text-body-secondary">{products.productname}</h3>
-            <h3 className="fs-6 text-body-emphasis">{products.productprice}</h3>
+            <h3 className="fs-6 text-body-tertiary">{products.title}</h3>
+            <h3 className="fs-6 text-body-secondary">{products.category}</h3>
+            <h3 className="fs-6 text-body-emphasis">{products.description}</h3>
             <div className="d-flex justify-content-between align-items-center">
               <div className="btn-group">
                 <button type="button" style={{height: '28px'}} className="btn btn-sm btn-outline-secondary">{products.butone}</button>

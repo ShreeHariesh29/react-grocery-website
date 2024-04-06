@@ -4,10 +4,8 @@ const GrocerySchema = new mongoose.Schema({
   productbrand: String,
   productname: String,
   productprice: String,
-  productimg: String,
-  butone: String,
-  cart: String
+
 })
 
-const GroceryModel = mongoose.model("products", GrocerySchema)
+const GroceryModel = mongoose.model("fruitveg", GrocerySchema)
 module.exports = GroceryModel
